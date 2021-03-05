@@ -73,4 +73,4 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 
 
 
-searchCity("Porto Alegre");
+searchCity("London");
