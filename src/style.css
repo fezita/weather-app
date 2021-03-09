@@ -30,6 +30,7 @@
   .description {
     font-size: 15px;
     text-align: center;
+    text-transform: capitalize;
   }
   
   .displayTemp {
