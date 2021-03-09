@@ -44,11 +44,25 @@
   }
   
   .units {
-    color: #a684e2;
     font-size: 15px;
     position: relative;
     top: -32px;
+  
+  }
+
+  .active { 
+  color: #a684e2;
+  cursor: default;
+  text-decoration: none;
+
+  }
+
+  .active:hoover {
     text-decoration: none;
+  }
+
+  .unit-fahrenheit {
+    text-decoration:none;
   }
   
   .emoticon {

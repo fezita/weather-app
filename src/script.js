@@ -66,6 +66,8 @@ function searchLocation(position) {
 function dislpayWeatherFahrenheit(event) {
     event.preventDefault();
     let fahrenheitTemperature = (celsiusTemperature * 9)/ 5 + 32;
+    celsiusLink.classList.remove("active");
+    fahrenheitLink.classList.add("active");
     let elementTemperature = document.querySelector("#currently-temp");
     elementTemperature.innerHTML = Math.round(fahrenheitTemperature);
 
@@ -74,6 +76,9 @@ function dislpayWeatherFahrenheit(event) {
 function displayCelsiusTemperature(event) {
     event.preventDefault(); 
     let elementTemperature = document.querySelector("#currently-temp");
+    celsiusLink.classList.add("active");
+    fahrenheitLink.classList.remove("active");
+    
     elementTemperature.innerHTML = Math.round(celsiusTemperature);
 }
 
