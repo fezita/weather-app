@@ -51,8 +51,9 @@
     text-decoration: none;
   }
   
-  .icon {
+  .emoticon {
     text-align: center;
+    font-size: 50px;
   }
   
   .update {
