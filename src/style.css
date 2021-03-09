@@ -1,13 +1,15 @@
 .container {
     max-width: 600px;
     margin: 30px auto;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+    
   }
   .card {
     color: #a684e2;
     font-family: "Noto Sans JP", sans-serif;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     border: none;
-    border-radius: 4px;
+    
   }
   
   .card-body {
@@ -65,9 +67,12 @@
     text-decoration:none;
   }
   
-  .emoticon {
+  .icon {
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    font-size: 50px;
+    width: 100px;
+
   }
   
   .update {
