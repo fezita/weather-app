@@ -57,7 +57,7 @@ function searchLocation(position) {
     let units = `metric`
     let lat = position.coords.latitude;
     let lon = position.coords.longitude;
-    let apiUrl = `lat=${lat}&lon=${lon}&appid=${apiKey}&units=${units}`; 
+    let apiUrl = `${endPoint}lat=${lat}&lon=${lon}&appid=${apiKey}&units=${units}`; 
     axios.get(apiUrl).then(displayWeatherCondition);
 
 
